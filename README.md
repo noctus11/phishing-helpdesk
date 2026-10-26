@@ -3,6 +3,13 @@
 An n8n workflow that lets staff forward a suspicious email to one address and get
 an AI-written verdict back by email within a minute.
 
+## Workflow
+![Workflow canvas](workflow-canvas.jpg)
+
+## Example replies
+![Example reply 1](reply-email.jpg)
+![Example reply 2](reply-email2.jpg)
+
 ## How it works
 1. A dedicated mailbox is watched over IMAP.
 2. A sender allowlist (If node) makes sure only approved addresses get a reply.
